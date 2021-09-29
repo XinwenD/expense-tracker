@@ -10,7 +10,7 @@ This project uses React hooks `useState`, `useReducer`, `useContext` and the Con
 ### Components
 
 - Header & Balance
-  ![Image of header-balance](https://octodex.github.com/images/yaktocat.png)
+  ![Image of header-balance](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
 
 ### `yarn test`
 
