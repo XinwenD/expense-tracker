@@ -9,8 +9,23 @@ This project uses React hooks `useState`, `useReducer`, `useContext` and the Con
 
 ### Components
 
-- Header & Balance
-  -![Image of header-balance](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
+- :one: Header, :two: Balance & :three: IncomeExpense
+
+  - The **Balance** was calculated based on all past transactions using `.map()` & `.reduce()` methods. 
+  - The **Income** & **Expense** were calculated by `.map()` all transactions then `.filter()` & `.reduce()`.
+
+![Image of header-balance](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
+
+- 4️⃣ TransactionList & 5️⃣ Transaction
+
+  - **TransactionList** maps each **Transaction** and lists them in the "History" area. It receives `{transactions}` data from `GlobalState` and passes each transaction to **Transaction** component.
+  - **Transaction** displays the details of each `{transaction}`. It also receives the `deleteTransaction()` method from `GlobalState` to delete unwanted transaction.
+
+![Image of transaction history](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
+
+- 6️⃣ AddTransaction
+
+  - 
 
 ### `yarn test`
 
