@@ -1,6 +1,6 @@
 # Expense Tracker
 
-* This project created an expense tracker. The user can see their balance, track each transaction and add/delete transactions. 
+* This project creates an expense tracker. The user can see their balance, track each transaction and add/delete transactions. 
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Intro
@@ -11,21 +11,21 @@ This project uses React hooks `useState`, `useReducer`, `useContext` and the Con
 
 - :one: Header, :two: Balance & :three: IncomeExpense
 
-  - The **Balance** was calculated based on all past transactions using `.map()` & `.reduce()` methods. 
-  - The **Income** & **Expense** were calculated by `.map()` all transactions then `.filter()` & `.reduce()`.
-
-![Image of header-balance](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
+  - The **Balance** is calculated based on all past transactions using `.map()` & `.reduce()` methods. 
+  - The **Income** & **Expense** are calculated by `.map()` all transactions then `.filter()` & `.reduce()`.
 
 - 4️⃣ TransactionList & 5️⃣ Transaction
 
-  - **TransactionList** maps each **Transaction** and lists them in the "History" area. It receives `{transactions}` data from `GlobalState` and passes each transaction to **Transaction** component.
-  - **Transaction** displays the details of each `{transaction}`. It also receives the `deleteTransaction()` method from `GlobalState` to delete unwanted transaction.
-
-![Image of transaction history](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
+  - **TransactionList** maps each **Transaction** and lists them in the "History" area. It receives `{transactions}` data from `GlobalContext` and passes each transaction to **Transaction** component.
+  - **Transaction** displays the details of each `{transaction}`. It also receives the `deleteTransaction()` method from `GlobalContext` to delete unwanted transaction.
 
 - 6️⃣ AddTransaction
 
-  - 
+  - **AddTransaction** receives the amount and item entered by users, creates a random ID using `nanoid()` and add this new transaction to the state variable by calling `addTransaction()` method from `GlobalContext`.
+
+![Image of header-balance](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
+![Image of transaction history](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
+![Image of addtransaction](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
 
 ### `yarn test`
 
