@@ -23,9 +23,9 @@ This project uses React hooks `useState`, `useReducer`, `useContext` and the Con
 
   - **AddTransaction** receives the amount and item entered by users, creates a random ID using `nanoid()` and add this new transaction to the state variable by calling `addTransaction()` method from `GlobalContext`.
 
-![Image of header-balance](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
-![Image of transaction history](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
-![Image of addtransaction](https://github.com/XinwenD/expense-tracker/blob/f987d898500ce621ddfa9c992273b6eb374dd952/imgs/header-balance.PNG)
+![Image of header-balance](https://github.com/XinwenD/expense-tracker/blob/9106d8748e6d32afd670fd18cedc84000a64087d/imgs/header-balance.PNG)
+![Image of transaction history](https://github.com/XinwenD/expense-tracker/blob/9106d8748e6d32afd670fd18cedc84000a64087d/imgs/transactionlist.PNG)
+![Image of addtransaction](https://github.com/XinwenD/expense-tracker/blob/0aae7f37cf1be7331c55cdfb678e2669ce43a960/imgs/addtransaction.PNG)
 
 ### `yarn test`
 
