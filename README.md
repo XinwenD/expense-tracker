@@ -1,12 +1,12 @@
 # Expense Tracker
 
 * This project creates an expense tracker. The user can see their balance, track each transaction and add/delete transactions. 
-* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-* This project is published at [Expense Tracker](https://xinwend.github.io/expense-tracker/).
+* The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* The project is published at [Expense Tracker](https://xinwend.github.io/expense-tracker/).
 
 ## Intro
 
-This project uses React hooks `useState`, `useReducer`, `useContext` and the Context API.
+The project uses React hooks `useState`, `useReducer`, `useContext` and the Context API.
 
 ### Components
 
