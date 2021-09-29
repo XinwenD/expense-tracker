@@ -36,16 +36,18 @@ This project uses React hooks `useState`, `useReducer`, `useContext` and the Con
   - Creates `deleteTransaction(id)`, `addTransaction(transaction)`, `initialState`.
 
 * AppReducer
-  - Define two actions `DELETE_TRANSATION` & `ADD_TRANSACTION`.
+  - Defines two actions `DELETE_TRANSATION` & `ADD_TRANSACTION`.
 
 * Constants
-  - Normalize actions' name.
+  - Normalizes actions' name.
 
 ### Code Build
 
 Builds the app for production to the `build` folder.\ by [WebPack](https://webpack.js.org/)
+
 Dependencies and loaders:
-`
+
+```
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.5",
@@ -58,4 +60,4 @@ Dependencies and loaders:
     "webpack-cli": "^4.8.0",
     "webpack": "^4.44.2",
     "webpack-dev-server": "^3.11.1",
-`
+```
