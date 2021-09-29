@@ -1,10 +1,11 @@
 # Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This project created an expense tracker. The user can see their balance, track each transaction and add/delete transactions. 
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Intro
 
-In the project directory, you can run:
+This project uses React hooks `useState`, `useReducer`,`useContext` and the Context API.
 
 ### Components
 
